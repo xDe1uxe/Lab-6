@@ -1,0 +1,124 @@
+.page{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helevtica, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    background-color: white
+    
+}
+
+.nav_container>nav>ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+
+}
+
+.nav_container>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.nav_container a.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.text-page {
+    padding-left: 30px;
+
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    width: 25%;
+    background-color: rgb(247, 245, 245);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.section {
+    width: 75%;
+}
+
+.header>div {
+    width: 100%;
+}
+
+.header a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.header>div>img{
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+.Felecia{
+    font-size: 27px;
+}
+.header span.button{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ebe8e8;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 15px;
+    
+    
+}
+
+.list{
+    text-align: left;
+    padding-left: 90px;
+    list-style: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.card{
+    border: solid;
+    border-color: rgb(247, 245, 245);
+    border-radius: 10px;
+    margin: 15px;
+    width: 425px;
+    height: 160px;
+    text-align: center;
+    font-size: 13.5px;
+    
+}
+
+.card img{
+    width: 60px;
+    margin-top: 10px;
+}
+
+.text-page>p{
+    color: #414141;
+}
